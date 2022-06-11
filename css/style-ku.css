@@ -63,6 +63,7 @@ article {
 
 .text-tengah{
     text-align: center;
+    font-family: 'Permanent Marker', cursive;
 }
 .garis-tengah{
     text-decoration: line-through;
@@ -71,6 +72,7 @@ article {
 
 .indentasi{
     text-indent: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .overflow{
     width: 500px;
