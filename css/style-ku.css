@@ -2,3 +2,10 @@
     font-size: 32px;
     color: blue;
 }
+/* warna biru */
+.background_biru{
+    background-color: rgb(99, 99, 183);
+}
+#bg_grey {
+    background: grey;
+}
