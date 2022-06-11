@@ -68,3 +68,13 @@ article {
     text-decoration: line-through;
 
 }
+
+.indentasi{
+    text-indent: 30px;
+}
+.overflow{
+    width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
