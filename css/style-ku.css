@@ -27,3 +27,7 @@ a:hover {
 a:visited{
     background-color: blueviolet;
 }
+
+p::first-line {
+    color: tomato;
+}
