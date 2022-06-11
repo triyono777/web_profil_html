@@ -1,3 +1,7 @@
+h1{
+    background-color: cornflowerblue;
+}
+
 .paragrap_external{
     font-size: 32px;
     color: blue;
@@ -9,3 +13,11 @@
 #bg_grey {
     background: grey;
 }
+
+input[type=email] {
+    background: none;
+    color: rgb(184, 24, 205);
+    padding: 10px;
+    border: 4px solid rgb(154, 13, 111);
+}
+
