@@ -1,15 +1,21 @@
-h1{
-    background-color: cornflowerblue;
+h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(279deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.7609418767507002) 31%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.paragrap_external{
+.paragrap_external {
     font-size: 32px;
     color: blue;
 }
+
 /* warna biru */
-.background_biru{
+.background_biru {
     background-color: rgb(99, 99, 183);
 }
+
 #bg_grey {
     background: grey;
 }
@@ -20,14 +26,19 @@ input[type=email] {
     padding: 10px;
     border: 4px solid rgb(154, 13, 111);
 }
+
 a:hover {
     background-color: yellowgreen;
 }
 
-a:visited{
+a:visited {
     background-color: blueviolet;
 }
 
 p::first-line {
-    color: tomato;
+    color: rgb(220, 237, 179);
 }
+
+article {
+    background: rgb(2,0,36);
+    background: linear-gradient(279deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.7609418767507002) 31%, rgba(0,212,255,1) 100%);}
