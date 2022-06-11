@@ -20,6 +20,7 @@ h1 {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
 }
 
 .paragrap_external {
@@ -58,4 +59,12 @@ p::first-line {
 article {
     background: rgb(2, 0, 36);
     background: linear-gradient(279deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 0.7609418767507002) 31%, rgba(0, 212, 255, 1) 100%);
+}
+
+.text-tengah{
+    text-align: center;
+}
+.garis-tengah{
+    text-decoration: line-through;
+
 }
