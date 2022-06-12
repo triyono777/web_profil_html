@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style-ku.css">
+    <style type="text/css"> 
+    p{
+        font-size: 20px;
+    }
+    .paragrap_class{
+        color: blue;
+    }
+    #paragrap_id{
+        color: red;
+    }
+    </style>
     <title>Triyono Personal Website</title>
 </head>
 
@@ -22,16 +34,29 @@
     <header style="text-align: center;">
         <img src="image/foto-profile.jpg" width="200" height="200" style="border-radius: 50%;" />
         <h1>Triyono</h1>
-        <p>(Web Developer)</p>
+        <p class="background_biru">(Web Developer)</p>
     </header>
 
     <hr />
 
     <article style="text-align: center;">
-        <h2>Overview</h2>
+        <h2 id="bg_grey">Overview</h2>
         <p>
             Hi, saya adalah web developer yang berdomisisli di Solo.
             Saat ini sedang belajar HTML di Petani Kode
+        </p>
+        <p class="paragrap_class">
+            Ini contoh css internal dengan class
+        </p>
+        <p id="paragrap_id">
+            Ini contoh css internal dengan id 
+        </p>
+        <p style="color: orange ; font-size: 40px;" >
+            ini contoh css inline
+        </p>
+
+        <p class="paragrap_external">
+            contoh css external
         </p>
     </article>
 

@@ -1,0 +1,89 @@
+body {
+    background-image: url('../image/lovepik-asian-ink-wash-painting-nature-png-png-image_401543823_wh1200.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.bg-wave {
+    background-image: url('../image/wave.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: blue; */
+    backdrop-filter: blur(10px);
+
+
+}
+
+h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(279deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 0.7609418767507002) 31%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.paragrap_external {
+    font-size: 32px;
+    color: blue;
+}
+
+/* warna biru */
+.background_biru {
+    background-color: rgb(99, 99, 183);
+}
+
+#bg_grey {
+    background: grey;
+}
+
+input[type=email] {
+    background: none;
+    color: rgb(184, 24, 205);
+    padding: 10px;
+    border: 4px solid rgb(154, 13, 111);
+}
+
+a:hover {
+    background-color: yellowgreen;
+}
+
+a:visited {
+    background-color: blueviolet;
+}
+
+p::first-line {
+    color: rgb(220, 237, 179);
+}
+
+article {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(279deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 0.7609418767507002) 31%, rgba(0, 212, 255, 1) 100%);
+}
+
+.text-tengah {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    border-width: 11px;
+    border-style: solid;
+    border-color: #1C6EA4;
+    border-radius: 80px 0px 80px 0px;
+}
+
+.garis-tengah {
+    text-decoration: line-through;
+
+
+}
+
+.indentasi {
+    text-indent: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.overflow {
+    width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
